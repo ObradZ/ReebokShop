@@ -1,0 +1,193 @@
+*{
+    padding:0px;
+    margin:0px;
+    color:white;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+body{
+    background-color:black;
+    padding:10px;
+    background-color:white;
+}
+div{
+    margin:10px;
+    padding:15px;
+}
+#wrapper{
+    margin:0px;
+    padding:10px;
+    background-color:white;
+}
+#logo img{
+    display:block;
+    background-color: white;
+    margin:0px 30px 0px 0px;
+}
+#navigation{
+    background-color:black;
+}
+#navigation ul{
+    list-style-type: none;
+    display:inline-block;
+    float:left;
+    position:relative;
+    z-index:99;
+
+}
+#navigation li{
+    display:block;
+    background-color:black;
+    width:100px;
+    text-align: center;
+    float:left;
+    height:50px;
+
+}
+#navigation li a{
+    text-decoration: none;
+    background-color:black;
+    display:block;
+    width:100px;
+    height:50px;
+    line-height: 55px;
+}
+#navigation li a:hover{
+    color:#B81C27;
+}
+#navigation ul li ul li{
+    opacity:0.6;
+}
+#navigation ul li ul li:hover{
+    opacity:1;
+}
+#navigation a{
+    display:block;
+    float:left;
+}
+#navigation ul li ul{
+    display:none;
+}
+#navigation ul li:hover ul{
+    display:block;
+}
+#submenu li{
+    z-index:999;
+}
+#social{
+    float:right;
+    margin:0px;
+    padding:0px;
+}
+#social img{
+    display:block;
+    float:right;
+}
+#social a{
+    display:block;
+    margin:0px 5px;
+    background-color:white;
+}
+#social a:hover{
+    background-color:#B81C27;
+}
+hr{
+    clear:both;
+}
+/* Login and register bar begins*/
+#topBar{
+    overflow:auto;
+    margin:10px;
+    padding:5px;
+    background-color:black;
+}
+#topBar a{
+    display:block;
+    float:right;
+    text-decoration: none;
+    padding:10px;
+    background-color: black;
+}
+#topBar a:hover{
+    color:#B81C27;
+}
+/*login and register bar ends*/
+#footer{
+    background-color:black;
+    overflow:auto;
+    padding:4px;
+}
+#footer a{
+    display:block;
+    text-decoration: none;
+    padding:1px;
+    font-size: 10px;
+}
+#footer a:hover{
+    color:#B81C27;
+}
+#c{
+    float:left;
+}
+#a{
+    float:right;
+}
+/*End of footer*/
+#content{
+    background-color: black;
+    clear:both;
+}
+#img{
+    width:95%;
+    clear:both;
+}
+/*  products.jsp */
+#contentPr{
+   background-color:#D8D8D8;
+    clear:both; 
+    overflow:auto;
+     
+  
+    
+}
+#contentPr img{
+    width:100%;
+    display:block;
+    border-radius: 5px;
+    height:80%;
+    
+}
+#contentPr a{
+    display:block;
+    float:left;
+    background-color:white;
+    width:100%;
+    padding:0px;
+    margin:0px;
+    border-radius:5px;
+    height:100%;
+}
+#contentPr p{
+    float:left;
+    width:98%;
+    font-size: 15px;
+    margin:1%;
+    text-align: center;
+}
+
+#contentPr a:hover p{
+    color:black;
+}
+.product{
+    border:1px white solid;
+    border-radius:5px;
+    margin:1%;
+    width:22%;
+    float:left;
+    padding:0px;
+
+}
+.product:hover{
+    border-color:black;
+}
+

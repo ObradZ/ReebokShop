@@ -1,0 +1,47 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-color:white;
+}
+h1{
+    margin:20px;
+    padding:10px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    border-radius: 5px;
+}
+#form{
+    padding:30px;
+    margin:20px;
+    background-color:black;
+    color:white;
+    text-align:center;
+    border-radius: 5px;
+}
+#form input{
+    border:1px white solid;
+    border-radius: 5px;
+    margin:10px;
+    min-width: 100px;
+    color:white;
+    background-color: black;
+}
+#form select{
+    background-color:black;
+    color:white;
+    border:1px white solid;
+    border-radius: 5px;
+}
+p{
+    margin:0px;
+}
+#form input:disabled{
+    color:grey;
+    border:1px grey solid;
+    border-radius: 5px;
+}
+
+
+
